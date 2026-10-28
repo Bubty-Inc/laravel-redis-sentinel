@@ -1,0 +1,36 @@
+# Dependencies
+/vendor/
+composer.lock
+
+# Tests / coverage
+.phpunit.result.cache
+.phpunit.cache/
+/build/
+/coverage/
+coverage.xml
+clover.xml
+
+# Code style
+.php-cs-fixer.cache
+.pint.cache
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Sonar
+.scannerwork/
+
+# IDEs / editors
+.idea/
+.vscode/
+*.swp
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
